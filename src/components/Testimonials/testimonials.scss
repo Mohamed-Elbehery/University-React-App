@@ -1,0 +1,71 @@
+@use "../../index.scss" as *;
+
+.testimonials-cards {
+  @include section-grid;
+  @include section;
+  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+
+  .testimonials-card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.75rem;
+    padding: 1.5rem 1rem;
+    background-color: rgba(0, 0, 0, 0.55);
+    border: 2px solid gray;
+    transition: $transitionDurationF;
+    overflow: hidden;
+
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-color: $mainColor;
+      z-index: -1;
+      transform: translateX(-100%);
+      transition: $transitionDurationF;
+    }
+
+    &:hover::before {
+      transform: translateX(0);
+    }
+
+    &:hover {
+      transform: translateY(-0.75rem);
+    }
+
+    &:hover .user-img img {
+      filter: grayscale(0);
+    }
+
+    .user-img {
+      height: 100%;
+      width: 100%;
+
+      img {
+        width: 70%;
+        border-radius: 50%;
+        transition: $transitionDurationF;
+        filter: grayscale(1);
+      }
+    }
+
+    .user-opinion {
+      .content {
+
+        p {
+          color: lightgray;
+          font-weight: 300;
+        }
+
+        h3 {
+          font-size: 1.4rem;
+          margin-top: 1rem;
+          color: white;
+          font-weight: 600;
+        }
+      }
+    }
+  }
+}

@@ -12,7 +12,7 @@
       content: '';
       position: absolute;
       inset: 0;
-      background-color: rgba(192, 14, 2, 0.75);
+      background-color: $lowAlphaMainColor;
       opacity: 0;
       transition: $transitionDurationF;
       border-radius: 2%;

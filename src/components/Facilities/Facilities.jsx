@@ -6,7 +6,7 @@ const Facilities = () => {
   return (
     <div className="facilities">
       <MainHeading
-        title={"Facilities"}
+        title={"Our Facilities"}
         paragraph={"Lorem ipsum dolor sit amet, consectetur adipisicing elit."}
       />
       <FacilitiesContent />

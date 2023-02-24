@@ -1,5 +1,5 @@
 import "./home.scss";
-import { Courses, Landing, Campus, Facilities } from "../../components";
+import { Courses, Landing, Campus, Facilities, Testimonials } from "../../components";
 import { useEffect } from "react";
 
 const Home = () => {
@@ -20,6 +20,7 @@ const Home = () => {
       <Courses />
       <Campus />
       <Facilities />
+      <Testimonials />
     </div>
   );
 };

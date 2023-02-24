@@ -1,34 +1,61 @@
 @use '../../index.scss' as *;
 
-.facilities-cards {
-  @include section-grid;
-  @include section;
-
-  .facilities-card {
-    box-shadow: 0 0 15px 0px rgb(0 0 0 / 30%);
-    border-radius: 2.5%;
-
-    img {
-      width: 100%;
+.facilities {
+  .facilities-cards {
+    @include section-grid;
+    @include section;
+  
+    .facilities-card {
+      box-shadow: 0 0 15px 0px rgb(0 0 0 / 30%);
       border-radius: 2.5%;
-    }
+      position: relative;
+      overflow: hidden;
 
-    .card-content {
-      padding-left: 1rem;
-      padding-bottom: 0.25rem;
-      
-      h3 {
-        margin: 1rem 0;
+      &:hover .card-content {
+        bottom: 0%;
+      }
+  
+      img {
+        width: 100%;
+        height: 100%;
+        border-radius: 2.5%;
+        transition: $transitionDuration;
       }
 
-      p {
-        color: $paragraphsColor;
-        font-size: 14px;
-        line-height: 1.6;
-        font-weight: 300;
-        width: 90%;
+      &:hover img {
+        transform: rotate(4deg) scale(1.15);
       }
-    }
+  
+      .card-content {
+        padding-left: 1rem;
+        padding-bottom: 0.25rem;
+        position: absolute;
+        left: 0;
+        bottom: -100%;
+        background-color: $lowAlphaMainColor;
+        transition: $transitionDuration;
+        
+        h3,p {color: white;}
 
+        h3 {
+          margin: 1rem 0;
+          margin-bottom: 0.5rem;
+          text-align: center;
+          font-size: 1.285rem;
+          font-weight: 600;
+        }
+  
+        p {
+          font-size: 14px;
+          line-height: 1.6;
+          font-weight: 300;
+          width: 90%;
+          margin: 0 auto;
+          text-align: center;
+          margin-bottom: 1rem;
+        }
+      }
+  
+    }
   }
 }

@@ -17,7 +17,7 @@ header .container {
   @include section;
 
   .logo img {
-    width: 55%;
+    width: 65%;
   }
 
   nav ul {
@@ -30,7 +30,8 @@ header .container {
     
       a {
         position: relative;
-        font-size: 0.9rem;
+        font-size: 1rem;
+        text-transform: uppercase;
       
         &::before {
           content: '';

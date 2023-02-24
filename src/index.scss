@@ -2,6 +2,7 @@
 $mainColor: #f44336;
 $linksColor: white;
 $paragraphsColor: gray;
+$lowAlphaMainColor: rgba(192, 14, 2, 0.7);
 $transitionDuration: 0.35s;
 $transitionDurationF: 0.6s;
 $transitionDurationO: 0.8s;
@@ -42,7 +43,7 @@ a {
   margin: 5rem 0;
 
   h2 {
-    font-size: 2.25em;
+    font-size: 2.5em;
     font-weight: 600;
     margin-bottom: 0.5rem;
   }

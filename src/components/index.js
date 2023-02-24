@@ -3,3 +3,4 @@ export { default as Landing } from './Landing/Landing';
 export { default as Courses } from './Courses/Courses';
 export { default as Campus } from './Campus/Campus';
 export { default as Facilities } from './Facilities/Facilities';
+export { default as Testimonials } from './Testimonials/Testimonials';
