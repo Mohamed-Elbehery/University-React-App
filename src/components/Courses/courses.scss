@@ -1,0 +1,38 @@
+@use '../../index.scss' as *;
+
+.courses {
+  .courses-content {
+    @include section;
+  }
+
+  .courses-cards {
+    @include section-grid;
+
+    .courses-card {
+      background-color: #fff1f1;
+      text-align: center;
+      border-radius: 0.85rem;
+      padding: 1.2rem 0.5rem;
+      padding-bottom: 1.5rem;
+      transition: $transitionDurationF;
+
+      h3 {
+        margin: 0.75rem 0;
+        font-weight: 600;
+      }
+
+      p {
+        color: $paragraphsColor;
+        font-weight: 200;
+        width: 90%;
+        text-align: center;
+        margin: 0 auto;
+      }
+
+      &:hover {
+        box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
+        transform: scale(1.035);
+      }
+    }
+  }
+}
