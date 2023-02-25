@@ -46,12 +46,12 @@ const Header = () => {
           </ul>
         </nav>
         <MenuIcon
-          className={`menu menu-bar`}
+          className="menu menu-bar"
           onClick={() => setClicked(true)}
           style={{ display: `${clicked ? "none" : "block"}` }}
         />
         <CloseIcon
-          className={`menu exit`}
+          className="menu exit"
           onClick={() => setClicked(false)}
           style={{ display: `${clicked ? "block" : "none"}` }}
         />

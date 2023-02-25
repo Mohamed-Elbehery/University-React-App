@@ -7,22 +7,26 @@ header {
   z-index: 999;
   padding: 2rem 0rem;
 
-  .menu {
-    display: none;
-    position: absolute;
-    right: 2rem;
-    color: white;
-    font-size: 2rem;
-    cursor: pointer;
-  }
-
   .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
     @include section;
+
+    .menu {
+      position: absolute;
+      right: 2rem;
+      color: white;
+      font-size: 2rem;
+      cursor: pointer;
+    }
   
+    @media screen and (min-width: 768px) {
+      .menu-bar {
+        display: none !important;
+      }
+    }
+
     .logo {
       width: 165px;
 
