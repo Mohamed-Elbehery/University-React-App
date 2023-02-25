@@ -22,6 +22,7 @@ $transitionDurationO: 0.8s;
 
 html {
   scroll-behavior: smooth;
+  font-size: 13px;
 }
 
 body {
@@ -104,4 +105,8 @@ a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
   gap: 2rem;
+
+  @media screen and (max-width: 415px) {
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  }
 }

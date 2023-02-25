@@ -17,6 +17,42 @@
     justify-content: space-between;
     margin-top: 4rem;
 
+    @media screen and (max-width: 694px) {
+      flex-direction: column;
+      margin-top: 7.5rem;
+
+      .form-icons {
+        .address::before,
+        .phone-number::before,
+        .email::before {
+          left: -20% !important;
+        }
+      }
+
+      form {
+        width: 100%;
+
+        a {
+          margin: 0 auto;
+        }
+      }
+    }
+
+    @media screen and (max-width: 445px) {
+      .form-icons {
+        text-align: center;
+        width: 100%;
+      }
+
+      .address::before,
+      .phone-number::before,
+      .email::before {
+        right: 50% !important;
+        transform: translateX(50%) !important;
+        top: -60% !important;
+      }
+    }
+
     .form-icons {
       flex-basis: 40%;
 
@@ -36,14 +72,22 @@
       div {
         position: relative;
         margin-bottom: 3rem;
-        margin-left: 9%;
+        margin-left: 10%;
+
+        @media screen and (max-width: 694px) {
+          margin-left: 0;
+
+          h4 {
+            font-size: 1.1rem;
+          }
+        }
       }
 
       .address::before,
       .phone-number::before,
       .email::before {
         position: absolute;
-        left: -9%;
+        left: -10%;
         top: 50%;
         transform: translateY(-50%);
         color: $mainColor;
@@ -85,9 +129,6 @@
           opacity: 0;
         }
       }
-
-
-      
 
       a {
         @include hero-btn-secondary;

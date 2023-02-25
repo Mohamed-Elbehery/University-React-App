@@ -6,52 +6,96 @@ header {
   right: 0;
   z-index: 999;
   padding: 2rem 0rem;
-}
 
-header .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-  @include section;
-
-  .logo {
-    img {
-      width: 65%;
-    }
+  .menu {
+    display: none;
+    position: absolute;
+    right: 2rem;
+    color: white;
+    font-size: 2rem;
+    cursor: pointer;
   }
 
-  nav ul {
+  .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
   
-    li {
-      margin-left: 2rem;
-      font-weight: 300;
-    
-      a {
-        position: relative;
-        font-size: 0.9rem;
-        text-transform: uppercase;
-      
-        &::before {
-          content: '';
+    @include section;
+  
+    .logo {
+      width: 165px;
+
+      @media screen and (max-width: 575px) {
+        width: 120px;
+      }
+
+      img {
+        width: 100%;
+      }
+    }
+  
+    @media screen and (max-width: 767px) {
+      nav {
+        ul {
+          flex-direction: column !important;
           position: absolute;
-          left: 50%;
-          bottom: -5px;
-          transform: translateX(-50%);
-          width: 0%;
-          height: 2px;
+          right: 0%;
+          top: -100vh;
+          width: 100%;
+          height: 100vh;
           background-color: $mainColor;
-          transition: $transitionDuration;
+          justify-content: space-evenly;
+          transition: $transitionDurationO;
+          overflow: hidden;
         }
+      }
 
-        &:hover::before {
-          width: 100%;
+      nav.clicked {
+        ul {
+          top: 0;
         }
+      }
 
-        &.active::before {
-          width: 100%;
+      .menu-bar {
+        display: block;
+      }
+    }
+    nav {
+
+      ul {
+        display: flex;
+        align-items: center;
+      
+        li {
+          margin-left: 2rem;
+          font-weight: 300;
+        
+          a {
+            position: relative;
+            font-size: 0.9rem;
+            text-transform: uppercase;
+          
+            &::before {
+              content: '';
+              position: absolute;
+              left: 50%;
+              bottom: -5px;
+              transform: translateX(-50%);
+              width: 0%;
+              height: 2px;
+              background-color: $mainColor;
+              transition: $transitionDuration;
+            }
+    
+            &:hover::before {
+              width: 100%;
+            }
+    
+            &.active::before {
+              width: 100%;
+            }
+          }
         }
       }
     }

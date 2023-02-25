@@ -8,6 +8,7 @@
     width: 100%;
     height: 100vh;
     z-index: -2;
+    object-fit: cover;
   }
 
   &::before {
@@ -36,6 +37,18 @@
     h1 {
       font-size: 4rem;
       margin-bottom: 0.5rem;
+
+      @media screen and (max-width: 875px) {
+        font-size: 2.5rem;
+      }
+
+      @media screen and (max-width: 575px) {
+        font-size: 1.5rem;
+      }
+
+      @media screen and (max-width: 339px) {
+        font-size: 1rem;
+      }
     }
 
     p {
@@ -45,6 +58,19 @@
       margin: 0.5rem auto;
       margin-bottom: 2rem;
       font-size: 14px;
+
+      @media screen and (max-width: 959px) {
+        width: 70%;
+      }
+
+      @media screen and (max-width: 575px) {
+        width: 95%;
+        font-size: 11px;
+      }
+
+      @media screen and (max-width: 339px) {
+        font-size: 10px;
+      }
     }
 
     a {

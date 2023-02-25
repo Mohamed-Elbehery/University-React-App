@@ -42,4 +42,20 @@ footer {
       color: $mainColor;
     }
   }
-}
+
+  @media screen and (max-width: 799px) {
+    .main-heading {
+      p {
+        width: 80%;
+      }
+      }
+    }
+
+  @media screen and (max-width: 318px) {
+    .main-heading {
+      p {
+        width: 95%;
+      }
+      }
+    }
+  }

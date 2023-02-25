@@ -17,6 +17,31 @@
     transition: $transitionDurationO;
     overflow: hidden;
 
+    @media screen and (max-width: 485px) {
+      flex-direction: column;
+      text-align: center;
+
+      img {
+        width: 30% !important;
+      }
+
+      .user-rate i:nth-child(2):before {
+        left: -1.2rem !important;
+      }
+
+      .user-rate i:nth-child(3):before {
+        left: calc(1.2rem * 1) !important;
+      }
+
+      .user-rate i:nth-child(4):before {
+        left: calc(1.2rem * -2) !important;
+      }
+
+      .user-rate i:nth-child(5):before {
+        left: calc(1.2rem * 2) !important;
+      }
+    }
+
     &::before {
       content: '';
       position: absolute;

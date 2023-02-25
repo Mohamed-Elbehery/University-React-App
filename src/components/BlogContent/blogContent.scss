@@ -8,6 +8,14 @@
     display: flex;
     justify-content: space-around;
 
+    @media screen and (max-width: 767px) {
+      flex-direction: column;
+
+      .blog-cats {
+        margin-top: 3rem;
+      }
+    }
+
     .blog-info {
       flex-basis: 61.5%;
       .info-img {
