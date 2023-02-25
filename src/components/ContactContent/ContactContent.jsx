@@ -12,6 +12,7 @@ const ContactContent = () => {
           style={{ border: 0 }}
           allowfullscreen=""
           loading="lazy"
+          title="contact map"
           referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
