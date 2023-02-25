@@ -1,8 +1,23 @@
 {
   "files": {
-    "main.css": "/University-React-App//static/css/main.757a2826.css",
-    "main.js": "/University-React-App//static/js/main.d56deeda.js",
+    "main.css": "/University-React-App//static/css/main.2d8785c2.css",
+    "main.js": "/University-React-App//static/js/main.5eea8429.js",
+    "static/css/851.4487e870.chunk.css": "/University-React-App//static/css/851.4487e870.chunk.css",
+    "static/js/851.86e0d472.chunk.js": "/University-React-App//static/js/851.86e0d472.chunk.js",
+    "static/css/886.31d6cfe0.chunk.css": "/University-React-App//static/css/886.31d6cfe0.chunk.css",
+    "static/js/886.78f33b01.chunk.js": "/University-React-App//static/js/886.78f33b01.chunk.js",
+    "static/css/74.0994dccf.chunk.css": "/University-React-App//static/css/74.0994dccf.chunk.css",
+    "static/js/74.d0f1046c.chunk.js": "/University-React-App//static/js/74.d0f1046c.chunk.js",
+    "static/css/363.31d6cfe0.chunk.css": "/University-React-App//static/css/363.31d6cfe0.chunk.css",
+    "static/js/363.192cfcba.chunk.js": "/University-React-App//static/js/363.192cfcba.chunk.js",
+    "static/css/541.31d6cfe0.chunk.css": "/University-React-App//static/css/541.31d6cfe0.chunk.css",
+    "static/js/541.0e64eabe.chunk.js": "/University-React-App//static/js/541.0e64eabe.chunk.js",
+    "static/css/288.31d6cfe0.chunk.css": "/University-React-App//static/css/288.31d6cfe0.chunk.css",
+    "static/js/288.45800ac9.chunk.js": "/University-React-App//static/js/288.45800ac9.chunk.js",
     "static/js/787.bbe01249.chunk.js": "/University-React-App//static/js/787.bbe01249.chunk.js",
+    "static/js/57.b81c0840.chunk.js": "/University-React-App//static/js/57.b81c0840.chunk.js",
+    "static/css/680.3a1e34ba.chunk.css": "/University-React-App//static/css/680.3a1e34ba.chunk.css",
+    "static/js/680.00d48e2b.chunk.js": "/University-React-App//static/js/680.00d48e2b.chunk.js",
     "static/media/banner.png": "/University-React-App//static/media/banner.896137787046ed837f10.png",
     "static/media/library.png": "/University-React-App//static/media/library.06333daf9fcee2c76f90.png",
     "static/media/cafeteria.png": "/University-React-App//static/media/cafeteria.f33027d1fb34e5cd0715.png",
@@ -17,12 +32,23 @@
     "static/media/user2.jpg": "/University-React-App//static/media/user2.0d20d0f69481da48ef11.jpg",
     "static/media/user1.jpg": "/University-React-App//static/media/user1.e0fc14f92d25b077b94c.jpg",
     "index.html": "/University-React-App//index.html",
-    "main.757a2826.css.map": "/University-React-App//static/css/main.757a2826.css.map",
-    "main.d56deeda.js.map": "/University-React-App//static/js/main.d56deeda.js.map",
-    "787.bbe01249.chunk.js.map": "/University-React-App//static/js/787.bbe01249.chunk.js.map"
+    "main.2d8785c2.css.map": "/University-React-App//static/css/main.2d8785c2.css.map",
+    "main.5eea8429.js.map": "/University-React-App//static/js/main.5eea8429.js.map",
+    "851.4487e870.chunk.css.map": "/University-React-App//static/css/851.4487e870.chunk.css.map",
+    "851.86e0d472.chunk.js.map": "/University-React-App//static/js/851.86e0d472.chunk.js.map",
+    "886.78f33b01.chunk.js.map": "/University-React-App//static/js/886.78f33b01.chunk.js.map",
+    "74.0994dccf.chunk.css.map": "/University-React-App//static/css/74.0994dccf.chunk.css.map",
+    "74.d0f1046c.chunk.js.map": "/University-React-App//static/js/74.d0f1046c.chunk.js.map",
+    "363.192cfcba.chunk.js.map": "/University-React-App//static/js/363.192cfcba.chunk.js.map",
+    "541.0e64eabe.chunk.js.map": "/University-React-App//static/js/541.0e64eabe.chunk.js.map",
+    "288.45800ac9.chunk.js.map": "/University-React-App//static/js/288.45800ac9.chunk.js.map",
+    "787.bbe01249.chunk.js.map": "/University-React-App//static/js/787.bbe01249.chunk.js.map",
+    "57.b81c0840.chunk.js.map": "/University-React-App//static/js/57.b81c0840.chunk.js.map",
+    "680.3a1e34ba.chunk.css.map": "/University-React-App//static/css/680.3a1e34ba.chunk.css.map",
+    "680.00d48e2b.chunk.js.map": "/University-React-App//static/js/680.00d48e2b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.757a2826.css",
-    "static/js/main.d56deeda.js"
+    "static/css/main.2d8785c2.css",
+    "static/js/main.5eea8429.js"
   ]
 }
