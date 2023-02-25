@@ -12,7 +12,7 @@ const Header = () => {
     <header>
       <div className="container">
         <div className="logo">
-          <Link to="/University-React-App">
+          <Link to="/University-React-App/">
             <img src={logo} alt="logo" />
           </Link>
         </div>
@@ -21,7 +21,7 @@ const Header = () => {
             <li>
               <NavLink
                 onClick={() => setClicked(false)}
-                to={"/University-React-App"}
+                to={"/University-React-App/"}
               >
                 Home
               </NavLink>
