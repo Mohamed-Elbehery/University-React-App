@@ -2,7 +2,7 @@
   "name": "my-website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mohamed-elbehery.github.io/",
+  "homepage": "https://mohamed-elbehery.github.io/University-React-App/",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
