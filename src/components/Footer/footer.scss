@@ -1,0 +1,45 @@
+@use '../../index.scss' as *;
+
+footer {
+  .main-heading {
+    margin-bottom: 0;
+    h2 {
+      font-size: 1.1rem;
+    }
+
+    p {
+      width: 40%;
+      margin: 0 auto;
+      text-align: center;
+      font-size: 0.9rem;
+      margin-top: 2.5rem;
+    }
+  }
+
+
+  .social-media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+
+    i {
+      cursor: pointer;
+      color: $mainColor;
+      font-size: 1.1rem;
+    }
+  }
+
+  h4 {
+    text-align: center;
+    color: $paragraphsColor;
+    font-weight: 400;
+    margin: 1.5rem 0 2rem 0;
+    font-size: 1rem;
+
+    i {
+      color: $mainColor;
+    }
+  }
+}

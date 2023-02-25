@@ -13,8 +13,8 @@
     border-radius: 0.75rem;
     padding: 1.5rem 1rem;
     background-color: rgba(0, 0, 0, 0.55);
-    border: 2px solid gray;
-    transition: $transitionDurationF;
+    border: 3px solid rgb(231, 231, 231);
+    transition: $transitionDurationO;
     overflow: hidden;
 
     &::before {
@@ -24,7 +24,7 @@
       background-color: $mainColor;
       z-index: -1;
       transform: translateX(-100%);
-      transition: $transitionDurationF;
+      transition: $transitionDurationO;
     }
 
     &:hover::before {
@@ -39,21 +39,24 @@
       filter: grayscale(0);
     }
 
+    &:hover .user-opinion .user-rate i::before{
+      filter: grayscale(0) !important;
+    }
+
     .user-img {
       height: 100%;
-      width: 100%;
+      width: 60%;
 
       img {
-        width: 70%;
+        width: 75%;
         border-radius: 50%;
-        transition: $transitionDurationF;
+        transition: $transitionDurationO;
         filter: grayscale(1);
       }
     }
 
     .user-opinion {
       .content {
-
         p {
           color: lightgray;
           font-weight: 300;
@@ -64,6 +67,43 @@
           margin-top: 1rem;
           color: white;
           font-weight: 600;
+        }
+      }
+
+      .user-rate {
+        i {
+          position: relative;
+          font-size: 14px;
+
+          &:nth-child(1):before,
+          &:nth-child(2):before,
+          &:nth-child(3):before,
+          &:nth-child(4):before,
+          &:nth-child(5):before {
+            content: '\f005';
+            position: absolute;
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            color: gold;
+            transition: $transitionDurationO;
+            filter: grayscale(1);
+          }
+
+          &:nth-child(2):before {
+            left: 1.2rem;
+          }
+
+          &:nth-child(3):before {
+            left: calc(1.2rem * 2);
+          }
+
+          &:nth-child(4):before {
+            left: calc(1.2rem * 3);
+          }
+
+          &:nth-child(5):before {
+            left: calc(1.2rem * 4);
+          }
         }
       }
     }

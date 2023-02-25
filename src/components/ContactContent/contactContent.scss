@@ -1,0 +1,100 @@
+@use '../../index.scss' as *;
+
+.contact-container {
+  @include section;
+  margin-top: 5rem;
+  margin-bottom: 7.5rem;
+
+  .contact-map {
+    iframe {
+      width: 100%;
+    }
+  }
+
+  .contact-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 4rem;
+
+    .form-icons {
+      flex-basis: 40%;
+
+      h4 {
+        font-weight: 400;
+        font-size: 1.25rem;
+        color: rgba(0, 0, 0, 0.7);
+      }
+
+      p {
+        color: $paragraphsColor;
+        margin: 0.7rem 0 0 0.75rem;
+        font-size: 0.9rem;
+        font-weight: 300;
+      }
+
+      div {
+        position: relative;
+        margin-bottom: 3rem;
+        margin-left: 9%;
+      }
+
+      .address::before,
+      .phone-number::before,
+      .email::before {
+        position: absolute;
+        left: -9%;
+        top: 50%;
+        transform: translateY(-50%);
+        color: $mainColor;
+        font-size: 1.75rem;
+        font-weight: 900;
+        font-family: "Font Awesome 5 Free";
+      }
+
+      .address::before {
+        content: '\f015';
+      }
+
+      .phone-number::before {
+        content: '\f095';
+      }
+
+      .email::before {
+        content: '\f0e0';
+      }
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      flex-basis: 50%;
+
+      input, textarea {
+        width: 100%;
+        outline: none;
+        border: 1px solid lightgray;
+        padding: 0.85rem;
+        margin-top: 1.5rem;
+
+        &::placeholder {
+          transition: $transitionDurationF;
+        }
+
+        &:focus::placeholder {
+          opacity: 0;
+        }
+      }
+
+
+      
+
+      a {
+        @include hero-btn-secondary;
+        width: fit-content;
+        margin-top: 2rem;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

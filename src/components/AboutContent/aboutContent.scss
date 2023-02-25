@@ -1,0 +1,45 @@
+@use '../../index.scss' as *; 
+
+.about-container {
+  @include section;
+  margin-top: 7.5rem;
+  margin-bottom: 7.5rem;
+  display: flex;
+  align-items: center;
+
+  &.hidden {
+    transform: translateX(0);
+  }
+
+  .about-content {
+    h2 {
+      width: 37.5%;
+      line-height: 1.7;
+      font-size: 2rem;
+    }
+
+    p {
+      color: $paragraphsColor;
+      font-size: 0.9rem;
+      width: 50%;
+      line-height: 1.7;
+      margin-top: 1.5rem;
+    }
+
+    a {
+      @include hero-btn-secondary;
+      display: inline-block;
+      margin-top: 1.25rem;
+    }
+  }
+
+  .about-img {
+    width: 100%;
+    border-radius: 0.5rem;
+
+    img {
+      width: 85%;
+      border-radius: 0.5rem;
+    }
+  }
+}

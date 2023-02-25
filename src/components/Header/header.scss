@@ -4,9 +4,8 @@ header {
   position: absolute;
   left: 0;
   right: 0;
-  backdrop-filter: blur(0.325rem);
   z-index: 999;
-  padding: 1.4rem 0.4rem;
+  padding: 2rem 0rem;
 }
 
 header .container {
@@ -16,8 +15,10 @@ header .container {
 
   @include section;
 
-  .logo img {
-    width: 65%;
+  .logo {
+    img {
+      width: 65%;
+    }
   }
 
   nav ul {
@@ -30,7 +31,7 @@ header .container {
     
       a {
         position: relative;
-        font-size: 1rem;
+        font-size: 0.9rem;
         text-transform: uppercase;
       
         &::before {
@@ -40,7 +41,7 @@ header .container {
           bottom: -5px;
           transform: translateX(-50%);
           width: 0%;
-          height: 3px;
+          height: 2px;
           background-color: $mainColor;
           transition: $transitionDuration;
         }

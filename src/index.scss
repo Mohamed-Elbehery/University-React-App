@@ -55,7 +55,7 @@ a {
   }
 }
 
-// Intersection Observer
+//! Intersection Observer
 .hidden {
   opacity: 0;
   transition: $transitionDurationO;
@@ -72,7 +72,7 @@ a {
 //! Mixins
 @mixin hero-btn {
   font-size: 14px;
-  border: 1px solid white;
+  border: 1px solid $linksColor;
   padding: 0.8rem 2rem;
   border-radius: 3px;
   font-weight: 200;
@@ -81,6 +81,17 @@ a {
   &:hover {
     border-color: $mainColor;
     background-color: $mainColor;
+  }
+}
+
+@mixin hero-btn-secondary {
+  @include hero-btn;
+  border: 2px solid $mainColor;
+  color: $mainColor;
+  font-weight: 700;
+
+  &:hover {
+    color: $linksColor;
   }
 }
 
