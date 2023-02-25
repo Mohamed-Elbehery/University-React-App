@@ -55,7 +55,7 @@ const BlogContent = () => {
             <input type="text" placeholder="Enter Your Name..." />
             <input type="email" placeholder="Enter Your Email..." />
             <textarea cols="30" rows="10" placeholder="Enter Your Comment..." />
-            <Link to={"/blog"}>Post Comment</Link>
+            <Link to={"/University-React-App/blog"}>Post Comment</Link>
           </form>
         </div>
         <div className="blog-cats">

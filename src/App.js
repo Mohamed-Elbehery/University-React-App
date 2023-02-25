@@ -7,11 +7,11 @@ const App = () => {
     <>
       <Header />
       <Routes>
-        <Route index element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/courses" element={<Courses />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/University-React-App" element={<Home />} />
+        <Route path="/University-React-App/about" element={<About />} />
+        <Route path="/University-React-App/courses" element={<Courses />} />
+        <Route path="/University-React-App/blog" element={<Blog />} />
+        <Route path="/University-React-App/contact" element={<Contact />} />
       </Routes>
     </>
   );

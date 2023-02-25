@@ -14,7 +14,7 @@ const AboutContent = () => {
           aspernatur suscipit explicabo facilis, non laborum eum assumenda odio?
           Fugit aspernatur odit cum, numquam ea quaerat natus facere!
         </p>
-        <Link to={"/courses"}>Explore Now</Link>
+        <Link to={"/University-React-App/courses"}>Explore Now</Link>
       </div>
       <div className="about-img">
         <img src={images?.about} alt="about-img" />

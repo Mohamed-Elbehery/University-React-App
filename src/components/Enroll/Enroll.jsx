@@ -10,7 +10,7 @@ const Enroll = () => {
       </div>
       <div className="enroll-content">
         <h2>Enroll For Our Various Online Courses Anywhere From The World</h2>
-        <Link to={"/contact"}>Contact Us</Link>
+        <Link to={"/University-React-App/contact"}>Contact Us</Link>
       </div>
     </div>
   );

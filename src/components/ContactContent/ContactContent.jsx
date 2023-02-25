@@ -40,7 +40,7 @@ const ContactContent = () => {
             rows="10"
             placeholder="Enter Your Message"
           ></textarea>
-          <Link to={"/contact"}>Send Message</Link>
+          <Link to={"/University-React-App/contact"}>Send Message</Link>
         </form>
       </div>
     </div>

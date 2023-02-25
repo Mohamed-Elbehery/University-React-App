@@ -12,7 +12,7 @@ const Landing = () => {
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam,
           adipisci saepe corrupti fuga doloremque molestias natus. A!
         </p>
-        <Link to={"/blog"}>Visit Us To Know More</Link>
+        <Link to={"/University-React-App/blog"}>Visit Us To Know More</Link>
       </div>
     </div>
   );
