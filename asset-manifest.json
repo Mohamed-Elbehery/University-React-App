@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/University-React-App/static/css/main.757a2826.css",
+    "main.js": "/University-React-App/static/js/main.ec51d346.js",
+    "static/js/787.bbe01249.chunk.js": "/University-React-App/static/js/787.bbe01249.chunk.js",
+    "static/media/banner.png": "/University-React-App/static/media/banner.896137787046ed837f10.png",
+    "static/media/library.png": "/University-React-App/static/media/library.06333daf9fcee2c76f90.png",
+    "static/media/cafeteria.png": "/University-React-App/static/media/cafeteria.f33027d1fb34e5cd0715.png",
+    "static/media/basketball.png": "/University-React-App/static/media/basketball.383f35c9170608f41d81.png",
+    "static/media/newyork.png": "/University-React-App/static/media/newyork.5f0e3a41335b0096be41.png",
+    "static/media/london.png": "/University-React-App/static/media/london.8ff0cae94abe20255b71.png",
+    "static/media/background.jpg": "/University-React-App/static/media/background.178156c4e95feba4984d.jpg",
+    "static/media/washington.png": "/University-React-App/static/media/washington.310e678c281461921f72.png",
+    "static/media/banner2.jpg": "/University-React-App/static/media/banner2.db688b4a587ef606817b.jpg",
+    "static/media/certificate.jpg": "/University-React-App/static/media/certificate.a8b8ac9d2fc997d85d39.jpg",
+    "static/media/about.jpg": "/University-React-App/static/media/about.4fb954bf3bfaab30b56b.jpg",
+    "static/media/user2.jpg": "/University-React-App/static/media/user2.0d20d0f69481da48ef11.jpg",
+    "static/media/user1.jpg": "/University-React-App/static/media/user1.e0fc14f92d25b077b94c.jpg",
+    "index.html": "/University-React-App/index.html",
+    "main.757a2826.css.map": "/University-React-App/static/css/main.757a2826.css.map",
+    "main.ec51d346.js.map": "/University-React-App/static/js/main.ec51d346.js.map",
+    "787.bbe01249.chunk.js.map": "/University-React-App/static/js/787.bbe01249.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.757a2826.css",
+    "static/js/main.ec51d346.js"
+  ]
+}
