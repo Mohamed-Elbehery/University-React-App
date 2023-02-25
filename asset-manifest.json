@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/University-React-App/static/css/main.757a2826.css",
-    "main.js": "/University-React-App/static/js/main.ec51d346.js",
+    "main.js": "/University-React-App/static/js/main.fd5cf308.js",
     "static/js/787.bbe01249.chunk.js": "/University-React-App/static/js/787.bbe01249.chunk.js",
     "static/media/banner.png": "/University-React-App/static/media/banner.896137787046ed837f10.png",
     "static/media/library.png": "/University-React-App/static/media/library.06333daf9fcee2c76f90.png",
@@ -18,11 +18,11 @@
     "static/media/user1.jpg": "/University-React-App/static/media/user1.e0fc14f92d25b077b94c.jpg",
     "index.html": "/University-React-App/index.html",
     "main.757a2826.css.map": "/University-React-App/static/css/main.757a2826.css.map",
-    "main.ec51d346.js.map": "/University-React-App/static/js/main.ec51d346.js.map",
+    "main.fd5cf308.js.map": "/University-React-App/static/js/main.fd5cf308.js.map",
     "787.bbe01249.chunk.js.map": "/University-React-App/static/js/787.bbe01249.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.757a2826.css",
-    "static/js/main.ec51d346.js"
+    "static/js/main.fd5cf308.js"
   ]
 }
