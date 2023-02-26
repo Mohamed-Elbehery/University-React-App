@@ -8,14 +8,6 @@
   .courses-cards {
     @include section-grid;
 
-    .courses-card.hidden {
-      transform: scale(0);
-    }
-
-    .courses-card.show {
-      transform: scale(1);
-    }
-
     .courses-card {
       background-color: #fff1f1;
       text-align: center;

@@ -22,14 +22,6 @@
     z-index: -1;
   }
 
-  .landing-content.hidden {
-    transform: scale(0);
-  }
-
-  .landing-content.show {
-    transform: scale(1);
-  }
-
   .landing-content {
     display: flex;
     flex-direction: column;

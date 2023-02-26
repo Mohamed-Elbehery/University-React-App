@@ -20,13 +20,6 @@
     .blog-info {
       flex-basis: 61.5%;
       .info-img {
-        &.hidden {
-          transform: scale(0);
-        }
-
-        &.show {
-          transform: scale(1);
-        }
         img {
           width: 100%;
         }

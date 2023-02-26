@@ -39,6 +39,20 @@ a {
   color: white;
 }
 
+.testimonials-card.hidden,
+.info-img.hidden,
+.landing-content.hidden,
+.courses-card.hidden {
+  transform: scale(0);
+}
+
+.testimonials-card.show,
+.info-img.show,
+.landing-content.show,
+.courses-card.show {
+  transform: scale(1);
+}
+
 .main-heading {
   text-align: center;
   margin: 5rem 0;
