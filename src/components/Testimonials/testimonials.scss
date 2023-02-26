@@ -5,6 +5,14 @@
   @include section;
   grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
 
+  .testimonials-card.hidden {
+    transform: scale(0);
+  }
+
+  .testimonials-card.show {
+    transform: scale(1);
+  }
+
   .testimonials-card {
     position: relative;
     display: flex;

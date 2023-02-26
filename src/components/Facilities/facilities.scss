@@ -10,10 +10,6 @@
       border-radius: 2.5%;
       position: relative;
       overflow: hidden;
-
-      &:hover .card-content {
-        bottom: 0%;
-      }
   
       img {
         width: 100%;
@@ -26,6 +22,10 @@
         transform: rotate(4deg) scale(1.15);
       }
   
+      &:hover .card-content {
+        bottom: 0%;
+      }
+
       .card-content {
         padding-left: 1rem;
         padding-bottom: 0.25rem;
@@ -43,6 +43,9 @@
           text-align: center;
           font-size: 1.285rem;
           font-weight: 600;
+          @media screen and (max-width: 350px) {
+            font-size: 1.1rem;
+          }
         }
   
         p {
@@ -53,9 +56,11 @@
           margin: 0 auto;
           text-align: center;
           margin-bottom: 1rem;
+          @media screen and (max-width: 350px) {
+            font-size: 12px;
+          }
         }
       }
-  
     }
   }
 }

@@ -17,7 +17,7 @@ const AboutContent = () => {
         <Link to={"/University-React-App/courses"}>Explore Now</Link>
       </div>
       <div className="about-img">
-        <img src={images?.about} alt="about-img" />
+        <img loading="lazy" src={images?.about} alt="about-img" />
       </div>
     </div>
   );

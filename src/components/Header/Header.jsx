@@ -9,7 +9,7 @@ const Header = () => {
   const [clicked, setClicked] = useState(false);
 
   useEffect(() => {
-    if (clicked) window.pageYOffset = 0;
+    if (clicked) window.onscroll = () => window.scrollTo(0, 0);
     else window.onscroll = () => window.scrollTo(0, window.pageYOffset);
   }, [clicked]);
 
@@ -18,7 +18,7 @@ const Header = () => {
       <div className="container">
         <div className="logo">
           <Link to="/University-React-App/">
-            <img src={logo} alt="logo" />
+            <img loading="lazy" src={logo} alt="logo" />
           </Link>
         </div>
         <nav className={`${clicked ? "clicked" : ""}`}>

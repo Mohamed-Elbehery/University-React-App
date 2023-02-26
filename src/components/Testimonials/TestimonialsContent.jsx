@@ -6,7 +6,7 @@ const TestimonialsContent = () => {
       <div className="testimonials-cards">
         <div className="testimonials-card hidden">
           <div className="user-img">
-            <img src={images?.user2} alt="user-img" />
+            <img loading="lazy" src={images?.user2} alt="user-img" />
           </div>
           <div className="user-opinion">
             <div className="content">
@@ -29,7 +29,7 @@ const TestimonialsContent = () => {
         </div>
         <div className="testimonials-card hidden">
           <div className="user-img">
-            <img src={images?.user1} alt="user-img" />
+            <img loading="lazy" src={images?.user1} alt="user-img" />
           </div>
           <div className="user-opinion">
             <div className="content">
@@ -39,7 +39,7 @@ const TestimonialsContent = () => {
                 optio nihil animi voluptatibus reiciendis possimus eligendi
                 deleniti consequuntur accusamus?
               </p>
-              <h3>Fatma</h3>
+              <h3>Sondos</h3>
             </div>
             <div className="user-rate">
               <i className="fa fa-star"></i>
@@ -52,7 +52,7 @@ const TestimonialsContent = () => {
         </div>
         <div className="testimonials-card hidden">
           <div className="user-img">
-            <img src={images?.user2} alt="user-img" />
+            <img loading="lazy" src={images?.user2} alt="user-img" />
           </div>
           <div className="user-opinion">
             <div className="content">

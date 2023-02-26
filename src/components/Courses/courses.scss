@@ -8,11 +8,19 @@
   .courses-cards {
     @include section-grid;
 
+    .courses-card.hidden {
+      transform: scale(0);
+    }
+
+    .courses-card.show {
+      transform: scale(1);
+    }
+
     .courses-card {
       background-color: #fff1f1;
       text-align: center;
       border-radius: 0.85rem;
-      padding: 1.2rem 0.5rem;
+      padding: 1.5rem 0.5rem;
       padding-bottom: 1.5rem;
       transition: $transitionDurationF;
 
@@ -24,6 +32,7 @@
       p {
         color: $paragraphsColor;
         font-weight: 200;
+        line-height: 1.7;
         width: 90%;
         text-align: center;
         margin: 0 auto;

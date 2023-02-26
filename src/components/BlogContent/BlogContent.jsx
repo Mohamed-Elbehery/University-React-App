@@ -8,7 +8,11 @@ const BlogContent = () => {
       <div className="blog-content">
         <div className="blog-info">
           <div className="info-img hidden">
-            <img src={images?.certificate} alt="certificate-img" />
+            <img
+              loading="lazy"
+              src={images?.certificate}
+              alt="certificate-img"
+            />
           </div>
           <div className="info-text">
             <h3>Our Certificate & Online Programs For 2022</h3>

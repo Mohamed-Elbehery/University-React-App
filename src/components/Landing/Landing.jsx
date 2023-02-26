@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 const Landing = () => {
   return (
     <div className="landing">
-      <img src={images?.banner} alt="landing-background" />
+      <img loading="lazy" src={images?.banner} alt="landing-background" />
       <div className="landing-content hidden">
         <h1>World's Biggest University</h1>
         <p>
