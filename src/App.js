@@ -1,13 +1,11 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense } from 'react';
 import { Routes, Route } from "react-router-dom";
 import { Home, About, Courses, Blog, Contact } from './pages';
 import LazyLoad from './components/LazyLoad/LazyLoad';
 
 const App = () => {
-  const Header = lazy(() => import('./components/Header/Header'));
   return (
     <>
-      <Suspense fallback={<span style={{color: 'white'}}>null</span>}><Header /></Suspense>
       <Routes>
           <Route path="/University-React-App" element={<Suspense fallback={<LazyLoad />}><Home /></Suspense>} />
           <Route path="/University-React-App/about" element={<Suspense fallback={<LazyLoad />}><About /></Suspense>} />

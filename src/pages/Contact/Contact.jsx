@@ -1,9 +1,10 @@
-import { PagesBackground, Footer, ContactContent } from "../../components";
+import { PagesBackground, Footer, ContactContent, Header } from "../../components";
 import "./contact.scss";
 
 const Contact = () => {
   return (
     <div>
+      <Header />
       <PagesBackground title={"Contact Us"} />
       <ContactContent />
       <Footer />

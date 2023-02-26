@@ -3,6 +3,7 @@ import {
   Footer,
   CoursesCo,
   Facilities,
+  Header,
 } from "../../components";
 import "./courses.scss";
 import { useEffect } from "react";
@@ -15,6 +16,7 @@ const Courses = () => {
 
   return (
     <div className="courses-page">
+      <Header />
       <PagesBackground title={"Our Courses"} />
       <CoursesCo />
       <Facilities />

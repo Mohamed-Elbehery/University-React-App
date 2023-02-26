@@ -7,6 +7,7 @@ import {
   Testimonials,
   Enroll,
   Footer,
+  Header,
 } from "../../components";
 import { useEffect } from "react";
 import { handleObserver } from "../../useObserver";
@@ -18,6 +19,7 @@ const Home = () => {
 
   return (
     <div>
+      <Header />
       <Landing />
       <CoursesCo />
       <Campus />
