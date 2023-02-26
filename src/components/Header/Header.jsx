@@ -3,10 +3,15 @@ import logo from "../../assets/logo.png";
 import { Link, NavLink } from "react-router-dom";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseIcon from "@mui/icons-material/Close";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
   const [clicked, setClicked] = useState(false);
+
+  useEffect(() => {
+    if (clicked) window.pageYOffset = 0;
+    else window.onscroll = () => window.scrollTo(0, window.pageYOffset);
+  }, [clicked]);
 
   return (
     <header>
