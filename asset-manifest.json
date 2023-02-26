@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/University-React-App//static/css/main.ccbebae7.css",
-    "main.js": "/University-React-App//static/js/main.4309de70.js",
+    "main.js": "/University-React-App//static/js/main.a0cc5fcc.js",
     "static/css/886.31d6cfe0.chunk.css": "/University-React-App//static/css/886.31d6cfe0.chunk.css",
     "static/js/886.cd008b7d.chunk.js": "/University-React-App//static/js/886.cd008b7d.chunk.js",
     "static/css/74.f12d0d1e.chunk.css": "/University-React-App//static/css/74.f12d0d1e.chunk.css",
@@ -31,7 +31,7 @@
     "static/media/user1.jpg": "/University-React-App//static/media/user1.e0fc14f92d25b077b94c.jpg",
     "index.html": "/University-React-App//index.html",
     "main.ccbebae7.css.map": "/University-React-App//static/css/main.ccbebae7.css.map",
-    "main.4309de70.js.map": "/University-React-App//static/js/main.4309de70.js.map",
+    "main.a0cc5fcc.js.map": "/University-React-App//static/js/main.a0cc5fcc.js.map",
     "886.cd008b7d.chunk.js.map": "/University-React-App//static/js/886.cd008b7d.chunk.js.map",
     "74.f12d0d1e.chunk.css.map": "/University-React-App//static/css/74.f12d0d1e.chunk.css.map",
     "74.f70079d4.chunk.js.map": "/University-React-App//static/js/74.f70079d4.chunk.js.map",
@@ -45,6 +45,6 @@
   },
   "entrypoints": [
     "static/css/main.ccbebae7.css",
-    "static/js/main.4309de70.js"
+    "static/js/main.a0cc5fcc.js"
   ]
 }
