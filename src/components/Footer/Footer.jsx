@@ -19,7 +19,7 @@ const Footer = () => {
           <i className="fa-brands fa-twitter"></i>
         </Link>
         <Link
-          to={"https://www.linkedin.com/in/mohamed-el-behery-b0b367265/"}
+          to={"https://www.linkedin.com/in/mohamed-elsharqawi/"}
           target="_blank"
         >
           <i className="fa-brands fa-linkedin-in"></i>
