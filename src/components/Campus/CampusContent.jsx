@@ -1,33 +1,22 @@
-import { images } from "../../constants";
+import { useState } from "react";
+import { campusContent } from "..";
 
 const CampusContent = () => {
+  const [cards, setCards] = useState(campusContent);
+
   return (
     <div className="campus-content">
       <div className="campus-cards">
-        <div className="campus-card hidden">
-          <img loading="lazy" src={images?.london} alt="london-img" />
-          <div className="card-title">
-            <h3>London</h3>
-          </div>
-        </div>
-        <div className="campus-card hidden">
-          <img loading="lazy" src={images?.newyork} alt="newyork-img" />
-          <div className="card-title">
-            <h3>New York</h3>
-          </div>
-        </div>
-        <div className="campus-card hidden">
-          <img loading="lazy" src={images?.washington} alt="washington-img" />
-          <div className="card-title">
-            <h3>Washington</h3>
-          </div>
-        </div>
-        <div className="campus-card hidden">
-          <img loading="lazy" src={images?.newyork} alt="newyork-img" />
-          <div className="card-title">
-            <h3>New York</h3>
-          </div>
-        </div>
+        {cards.map((card, index) => {
+          return (
+            <div key={index + 1} className="campus-card">
+              <img loading="lazy" src={card?.imgSrc} alt="london-img" />
+              <div className="card-title">
+                <h3>{card?.title}</h3>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

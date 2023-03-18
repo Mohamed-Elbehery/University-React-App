@@ -6,14 +6,8 @@ import {
   Header,
 } from "../../components";
 import "./courses.scss";
-import { useEffect } from "react";
-import { handleObserver } from "../../useObserver";
 
 const Courses = () => {
-  useEffect(() => {
-    handleObserver();
-  }, []);
-
   return (
     <div className="courses-page">
       <Header />

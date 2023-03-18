@@ -1,19 +1,25 @@
 import "./blogContent.scss";
 import { images } from "../../constants";
 import { Link } from "react-router-dom";
+import { motion } from "framer-motion";
 
 const BlogContent = () => {
   return (
     <div className="blog-container">
       <div className="blog-content">
         <div className="blog-info">
-          <div className="info-img hidden">
+          <motion.div
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 1, type: "tween" }}
+            className="info-img"
+          >
             <img
               loading="lazy"
               src={images?.certificate}
               alt="certificate-img"
             />
-          </div>
+          </motion.div>
           <div className="info-text">
             <h3>Our Certificate & Online Programs For 2022</h3>
             <p>
@@ -23,36 +29,18 @@ const BlogContent = () => {
               aperiam natus tenetur doloremque iusto? Sunt labore accusantium
               vel, nesciunt adipisci non culpa laudantium itaque?
             </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              molestias perspiciatis, beatae, pariatur quidem iusto cumque nisi
-              voluptates quae iure culpa rerum vel a similique eveniet in nulla,
-              aliquam quaerat maxime optio? Iusto dicta minus laboriosam
-              veritatis eius, fugit dignissimos itaque hic enim molestias
-              quisquam impedit natus, labore, architecto inventore nihil illo
-              eaque eligendi. Natus esse dolorem iusto obcaecati beatae
-              voluptatibus recusandae, consequuntur quisquam animi.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              molestias perspiciatis, beatae, pariatur quidem iusto cumque nisi
-              voluptates quae iure culpa rerum vel a similique eveniet in nulla,
-              aliquam quaerat maxime optio? Iusto dicta minus laboriosam
-              veritatis eius, fugit dignissimos itaque hic enim molestias
-              quisquam impedit natus, labore, architecto inventore nihil illo
-              eaque eligendi. Natus esse dolorem iusto obcaecati beatae
-              voluptatibus recusandae, consequuntur quisquam animi.
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
-              molestias perspiciatis, beatae, pariatur quidem iusto cumque nisi
-              voluptates quae iure culpa rerum vel a similique eveniet in nulla,
-              aliquam quaerat maxime optio? Iusto dicta minus laboriosam
-              veritatis eius, fugit dignissimos itaque hic enim molestias
-              quisquam impedit natus, labore, architecto inventore nihil illo
-              eaque eligendi. Natus esse dolorem iusto obcaecati beatae
-              voluptatibus recusandae, consequuntur quisquam animi.
-            </p>
+            {[0, 1, 2].map((i) => (
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga
+                molestias perspiciatis, beatae, pariatur quidem iusto cumque
+                nisi voluptates quae iure culpa rerum vel a similique eveniet in
+                nulla, aliquam quaerat maxime optio? Iusto dicta minus
+                laboriosam veritatis eius, fugit dignissimos itaque hic enim
+                molestias quisquam impedit natus, labore, architecto inventore
+                nihil illo eaque eligendi. Natus esse dolorem iusto obcaecati
+                beatae voluptatibus recusandae, consequuntur quisquam animi.
+              </p>
+            ))}
           </div>
           <form>
             <h3>Leave a Comment</h3>

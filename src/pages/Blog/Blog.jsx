@@ -1,12 +1,7 @@
 import { PagesBackground, Footer, BlogContent, Header } from "../../components";
 import "./blog.scss";
-import { useEffect } from "react";
-import { handleObserver } from "../../useObserver";
 
 const Blog = () => {
-  useEffect(() => {
-    handleObserver();
-  }, []);
   return (
     <div>
       <Header />

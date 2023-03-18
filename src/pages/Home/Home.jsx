@@ -9,14 +9,8 @@ import {
   Footer,
   Header,
 } from "../../components";
-import { useEffect } from "react";
-import { handleObserver } from "../../useObserver";
 
 const Home = () => {
-  useEffect(() => {
-    handleObserver();
-  }, []);
-
   return (
     <div>
       <Header />

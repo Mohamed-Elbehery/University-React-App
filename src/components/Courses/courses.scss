@@ -11,10 +11,10 @@
     .courses-card {
       background-color: #fff1f1;
       text-align: center;
+      cursor: default;
       border-radius: 0.85rem;
-      padding: 1.5rem 0.5rem;
-      padding-bottom: 1.5rem;
-      transition: $transitionDurationF;
+      padding: 3rem 0.5rem;
+      transition: box-shadow 0.7s, scale 0.7s;
 
       h3 {
         margin: 0.75rem 0;
@@ -32,7 +32,7 @@
 
       &:hover {
         box-shadow: 0 0 20px 0 rgb(0 0 0 / 20%);
-        transform: scale(1.035);
+        scale: 1.05;
       }
     }
   }

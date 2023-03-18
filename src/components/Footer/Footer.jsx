@@ -12,16 +12,19 @@ const Footer = () => {
         }
       />
       <div className="social-media">
-        <Link to={"/University-React-App/"}>
+        <Link to={"/"}>
           <i className="fa-brands fa-facebook-f"></i>
         </Link>
-        <Link to={"/University-React-App/"}>
+        <Link to={"/"}>
           <i className="fa-brands fa-twitter"></i>
         </Link>
-        <Link to={"https://www.linkedin.com/in/mohamed-el-behery-b0b367265/"}>
+        <Link
+          to={"https://www.linkedin.com/in/mohamed-el-behery-b0b367265/"}
+          target="_blank"
+        >
           <i className="fa-brands fa-linkedin-in"></i>
         </Link>
-        <Link to={"https://github.com/Mohamed-Elbehery"}>
+        <Link to={"https://github.com/Mohamed-Elbehery"} target="_blank">
           <i className="fa-brands fa-github"></i>
         </Link>
       </div>

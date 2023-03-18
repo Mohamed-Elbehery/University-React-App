@@ -3,7 +3,7 @@
 .testimonials-cards {
   @include section-grid;
   @include section;
-  grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(325px, 1fr));
 
   .testimonials-card {
     position: relative;
@@ -11,7 +11,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 0.75rem;
-    padding: 1.5rem 1rem;
+    padding: 2rem 1rem;
     background-color: rgba(0, 0, 0, 0.55);
     border: 3px solid rgb(231, 231, 231);
     transition: $transitionDurationO;
@@ -73,7 +73,7 @@
       width: 60%;
 
       img {
-        width: 75%;
+        width: 80%;
         border-radius: 50%;
         transition: $transitionDurationO;
         filter: grayscale(1);

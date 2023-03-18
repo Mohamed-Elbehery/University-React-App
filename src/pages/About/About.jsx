@@ -1,13 +1,12 @@
-import { PagesBackground, Footer, AboutContent, Header } from "../../components";
+import {
+  PagesBackground,
+  Footer,
+  AboutContent,
+  Header,
+} from "../../components";
 import "./about.scss";
-import { useEffect } from "react";
-import { handleObserver } from "../../useObserver";
 
 const About = () => {
-  useEffect(() => {
-    handleObserver();
-  }, []);
-
   return (
     <div className="about">
       <Header />

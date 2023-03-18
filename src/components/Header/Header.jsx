@@ -17,49 +17,34 @@ const Header = () => {
     <header>
       <div className="container">
         <div className="logo">
-          <Link to="/University-React-App/">
+          <Link to="/">
             <img loading="lazy" src={logo} alt="logo" />
           </Link>
         </div>
         <nav className={`${clicked ? "clicked" : ""}`}>
           <ul>
             <li>
-              <NavLink
-                onClick={() => setClicked(false)}
-                to={"/University-React-App/"}
-              >
+              <NavLink onClick={() => setClicked(false)} to={"/"}>
                 Home
               </NavLink>
             </li>
             <li>
-              <NavLink
-                onClick={() => setClicked(false)}
-                to={"/University-React-App/about"}
-              >
+              <NavLink onClick={() => setClicked(false)} to={"/about"}>
                 About
               </NavLink>
             </li>
             <li>
-              <NavLink
-                onClick={() => setClicked(false)}
-                to={"/University-React-App/courses"}
-              >
+              <NavLink onClick={() => setClicked(false)} to={"/courses"}>
                 Courses
               </NavLink>
             </li>
             <li>
-              <NavLink
-                onClick={() => setClicked(false)}
-                to={"/University-React-App/blog"}
-              >
+              <NavLink onClick={() => setClicked(false)} to={"/blog"}>
                 Blog
               </NavLink>
             </li>
             <li>
-              <NavLink
-                onClick={() => setClicked(false)}
-                to={"/University-React-App/contact"}
-              >
+              <NavLink onClick={() => setClicked(false)} to={"/contact"}>
                 Contact
               </NavLink>
             </li>
