@@ -7,7 +7,7 @@ const Landing = () => {
   return (
     <div className="landing">
       <img
-        loading="lazy"
+        loading="eager"
         src={images?.universityBackground}
         alt="landing-background"
       />
